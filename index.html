@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>current collective energy</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔮</text></svg>">
+</head>
+<body>
+    <header>
+        <h1>current collective energy</h1>
+    </header>
+    <section>
+        <h2>
+            <strong>9 November 2022</strong>
+            heavy, tense
+        </h2>
+    </section>
+    <section>
+        <h2>
+            <strong>8 November 2022</strong>
+            mysterious, energetic
+        </h2>
+    </section>
+    <section>
+        <h2>
+            <strong>5 November 2022</strong>
+            weird, transitional
+        </h2>
+    </section>
+    <footer>
+        ...a mostly pointless website logging my interpretation of the collective energy
+    </footer>
+    <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.13.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.13.0/firebase-analytics.js";
+    
+        const firebaseConfig = {
+          apiKey: "AIzaSyBE-YYKu7IV_v5Mwof0yh6xrqMj1C2-ixM",
+          authDomain: "current-collective-energy.firebaseapp.com",
+          projectId: "current-collective-energy",
+          storageBucket: "current-collective-energy.appspot.com",
+          messagingSenderId: "258157671198",
+          appId: "1:258157671198:web:73c8e98187651869370f0f",
+          measurementId: "G-WEEXRVPNRD"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
+</body>
+</html>
